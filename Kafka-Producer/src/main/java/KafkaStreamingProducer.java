@@ -79,7 +79,7 @@ public class KafkaStreamingProducer {
 
         try {
 
-            String path1 = "/Users/utkarshnath/Desktop/reviewData.csv";
+            String path1 = "/Users/utkarshnath/Desktop/Bigdata-project/reviewData.csv";
 
             BufferedReader br = new BufferedReader(new FileReader(path1));
             String head = br.readLine();
@@ -87,7 +87,8 @@ public class KafkaStreamingProducer {
             for(int i=0; i<features.length; i++) {
                 logger.info(i+" "+features[i]);
             }
-            for (int i = 0; i < 100; i++) {
+
+            for (int i = 0; i < 500; i++) {
                 String line = br.readLine();
                 String[] data = line.split(",");
                 logger.info(data[0]+" ");

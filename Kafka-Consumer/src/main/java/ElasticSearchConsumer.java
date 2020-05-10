@@ -89,21 +89,21 @@ public class ElasticSearchConsumer {
         RestHighLevelClient client = createClient();
 
 
-        KafkaConsumer<String, String> consumer = createConsumer("customer_reviews");
+        KafkaConsumer<String, String> consumer = createConsumer("consumer_reviews");
 
-        // insert data into Cassansdra
-        Cluster cluster = Cluster.builder()
-                .addContactPoints(serverIP)
-                .build();
-
-        Session session = cluster.connect(keyspace);
-
-        logger.info("database connection established!");
-        String createTable = "CREATE TABLE IF NOT EXISTS reviews (review_id varchar Primary Key,marketplace varchar, verified_purchase varchar, helpful_votes bigint," +
-                "product_parent varchar, review_date date, total_votes bigint, product_id varchar, star_rating bigint, customer_id varchar," +
-                "vine varchar, product_category varchar);";
-
-        session.execute(createTable);
+//        // insert data into Cassansdra
+//        Cluster cluster = Cluster.builder()
+//                .addContactPoints(serverIP)
+//                .build();
+//
+//        Session session = cluster.connect(keyspace);
+//
+//        logger.info("database connection established!");
+//        String createTable = "CREATE TABLE IF NOT EXISTS reviews (review_id varchar Primary Key,marketplace varchar, verified_purchase varchar, helpful_votes bigint," +
+//                "product_parent varchar, review_date date, total_votes bigint, product_id varchar, star_rating bigint, customer_id varchar," +
+//                "vine varchar, product_category varchar);";
+//
+//        session.execute(createTable);
 
         // poll for new data
         while(true) {
@@ -113,7 +113,7 @@ public class ElasticSearchConsumer {
             for (ConsumerRecord<String, String> record: records) {
                 // where we insert data into Elastic Search
                 IndexRequest indexRequest = new IndexRequest(
-                        "consumer",
+                        "myconsumer",
                         "reviews"
                 ).source(record.value(), XContentType.JSON);
 
