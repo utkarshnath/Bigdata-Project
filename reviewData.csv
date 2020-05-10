@@ -1,0 +1,501 @@
+Review id,User Id,Product Category Id,Product Category,rating
+0,20,3,Health and Personal Care,3
+1,30,2,Books,2
+2,34,5,Cell Phones and Accessories,1
+3,49,2,Shoes and Jewelry,4
+4,29,5,Books,3
+5,42,4,CDs,5
+6,29,4,Clothing,3
+7,50,1,Clothing,1
+8,23,3,Electronics,4
+9,22,3,Movies,5
+10,39,5,Books,4
+11,5,1,Movies,2
+12,26,5,Books,4
+13,40,5,Electronics,2
+14,1,5,Home and Kitchen,2
+15,48,3,Books,5
+16,49,2,Movies,4
+17,28,4,Home and Kitchen,5
+18,31,2,Books,4
+19,40,2,CDs,4
+20,44,5,Sports and Outdoors,5
+21,29,1,Kindle Store,5
+22,13,1,Kindle Store,1
+23,5,3,Books,4
+24,31,3,Movies,4
+25,40,3,Shoes and Jewelry,5
+26,36,5,Books,5
+27,34,4,Cell Phones and Accessories,5
+28,25,4,Kindle Store,5
+29,26,3,Movies,1
+30,29,2,Movies,1
+31,34,2,Health and Personal Care,3
+32,38,1,Books,2
+33,37,4,Health and Personal Care,3
+34,46,4,Electronics,3
+35,3,1,Clothing,3
+36,10,5,Health and Personal Care,2
+37,23,1,Electronics,4
+38,10,1,Cell Phones and Accessories,5
+39,25,3,Sports and Outdoors,2
+40,4,3,Movies,1
+41,24,2,Clothing,3
+42,48,1,Movies,4
+43,12,3,Health and Personal Care,4
+44,2,1,Movies,1
+45,1,2,Electronics,2
+46,15,4,Kindle Store,1
+47,28,2,Home and Kitchen,5
+48,21,2,Books,2
+49,42,5,Movies,1
+50,23,3,Sports and Outdoors,5
+51,24,2,Books,1
+52,17,5,Home and Kitchen,2
+53,18,1,Books,3
+54,35,4,Sports and Outdoors,1
+55,40,3,Clothing,5
+56,10,4,Kindle Store,3
+57,50,4,Sports and Outdoors,2
+58,9,2,Health and Personal Care,3
+59,4,5,Shoes and Jewelry,3
+60,26,5,Books,5
+61,4,4,Books,1
+62,2,2,Shoes and Jewelry,4
+63,27,4,Cell Phones and Accessories,2
+64,49,5,Movies,4
+65,24,5,Books,4
+66,28,5,Cell Phones and Accessories,2
+67,24,3,CDs,2
+68,45,5,Sports and Outdoors,5
+69,50,5,Kindle Store,1
+70,10,5,Movies,3
+71,24,2,Home and Kitchen,5
+72,10,5,Home and Kitchen,2
+73,23,3,CDs,4
+74,19,5,Sports and Outdoors,1
+75,16,2,CDs,4
+76,17,3,Kindle Store,3
+77,47,2,Movies,1
+78,48,4,Shoes and Jewelry,1
+79,50,1,CDs,4
+80,17,1,CDs,2
+81,24,2,Sports and Outdoors,5
+82,32,3,Shoes and Jewelry,1
+83,45,5,Health and Personal Care,3
+84,3,2,Clothing,3
+85,4,4,CDs,3
+86,21,4,CDs,3
+87,47,2,Movies,4
+88,21,4,Books,2
+89,14,1,Electronics,5
+90,36,4,Health and Personal Care,2
+91,7,2,Kindle Store,5
+92,50,3,Health and Personal Care,4
+93,14,2,Health and Personal Care,2
+94,8,3,Shoes and Jewelry,3
+95,29,1,Movies,4
+96,38,5,Health and Personal Care,1
+97,50,5,Sports and Outdoors,3
+98,25,2,Sports and Outdoors,2
+99,49,2,Kindle Store,2
+100,16,5,Books,2
+101,45,2,Home and Kitchen,5
+102,32,3,Shoes and Jewelry,4
+103,2,1,Shoes and Jewelry,4
+104,36,5,Kindle Store,2
+105,35,1,Shoes and Jewelry,4
+106,44,1,Kindle Store,3
+107,1,1,Kindle Store,5
+108,21,1,Books,2
+109,19,4,CDs,2
+110,15,2,Shoes and Jewelry,5
+111,45,5,Movies,1
+112,10,1,Health and Personal Care,1
+113,33,2,Cell Phones and Accessories,3
+114,39,2,Kindle Store,4
+115,1,4,Electronics,1
+116,17,3,Clothing,1
+117,45,5,CDs,5
+118,19,3,Clothing,1
+119,27,1,Clothing,3
+120,12,5,Health and Personal Care,3
+121,15,3,Cell Phones and Accessories,4
+122,20,5,Shoes and Jewelry,4
+123,9,1,Books,3
+124,39,2,Books,5
+125,24,4,Electronics,2
+126,18,4,Cell Phones and Accessories,4
+127,40,1,Books,1
+128,3,2,Sports and Outdoors,4
+129,39,2,Health and Personal Care,2
+130,11,2,Books,1
+131,8,2,Books,1
+132,11,5,Home and Kitchen,1
+133,16,2,Home and Kitchen,1
+134,43,3,Home and Kitchen,3
+135,6,4,Sports and Outdoors,1
+136,3,4,Movies,5
+137,44,1,Kindle Store,1
+138,45,4,Home and Kitchen,4
+139,29,4,Cell Phones and Accessories,1
+140,14,3,Shoes and Jewelry,5
+141,24,1,Books,3
+142,29,4,Electronics,4
+143,43,3,Books,1
+144,25,1,Cell Phones and Accessories,1
+145,25,1,Movies,4
+146,7,2,Sports and Outdoors,2
+147,33,5,Books,4
+148,39,2,Shoes and Jewelry,4
+149,34,3,Home and Kitchen,5
+150,20,2,Clothing,5
+151,36,4,Kindle Store,4
+152,34,3,Kindle Store,2
+153,28,3,Kindle Store,1
+154,3,4,Shoes and Jewelry,4
+155,20,2,Cell Phones and Accessories,4
+156,46,3,Clothing,2
+157,23,5,Sports and Outdoors,5
+158,25,2,Cell Phones and Accessories,4
+159,25,4,Movies,4
+160,24,5,Electronics,3
+161,8,4,Shoes and Jewelry,2
+162,1,1,Sports and Outdoors,1
+163,29,2,Health and Personal Care,1
+164,32,2,Kindle Store,1
+165,2,4,Cell Phones and Accessories,1
+166,10,3,Health and Personal Care,2
+167,11,4,Kindle Store,4
+168,42,4,Shoes and Jewelry,4
+169,43,3,Sports and Outdoors,5
+170,37,5,Health and Personal Care,1
+171,12,4,Sports and Outdoors,5
+172,9,5,Kindle Store,3
+173,32,2,Movies,4
+174,40,4,Shoes and Jewelry,2
+175,9,4,Books,3
+176,43,5,Health and Personal Care,1
+177,17,1,Sports and Outdoors,1
+178,30,4,Health and Personal Care,5
+179,24,2,Sports and Outdoors,1
+180,23,4,Movies,1
+181,16,1,Kindle Store,3
+182,34,4,Shoes and Jewelry,2
+183,27,3,Sports and Outdoors,1
+184,12,4,Movies,2
+185,5,2,Cell Phones and Accessories,3
+186,24,3,Electronics,3
+187,39,1,Books,5
+188,19,4,Kindle Store,2
+189,19,5,Sports and Outdoors,3
+190,46,3,Books,3
+191,3,1,Sports and Outdoors,4
+192,24,5,CDs,3
+193,23,3,Electronics,1
+194,44,3,Home and Kitchen,2
+195,20,3,Movies,2
+196,36,5,Sports and Outdoors,4
+197,19,1,Movies,2
+198,9,2,Clothing,5
+199,34,1,Electronics,2
+200,45,1,Health and Personal Care,3
+201,7,3,Sports and Outdoors,2
+202,27,5,Sports and Outdoors,2
+203,28,2,Kindle Store,5
+204,28,4,Electronics,4
+205,35,5,Clothing,3
+206,34,4,Health and Personal Care,2
+207,16,2,CDs,1
+208,2,1,Shoes and Jewelry,1
+209,44,3,Books,2
+210,6,4,CDs,3
+211,8,4,Kindle Store,3
+212,29,5,Books,5
+213,39,2,Movies,2
+214,12,3,Electronics,2
+215,16,5,Shoes and Jewelry,5
+216,24,3,Books,4
+217,12,5,Cell Phones and Accessories,5
+218,39,4,Health and Personal Care,3
+219,32,4,Cell Phones and Accessories,3
+220,25,5,Books,2
+221,35,3,Electronics,4
+222,50,5,Health and Personal Care,5
+223,49,5,Books,2
+224,41,3,Books,1
+225,40,1,Clothing,5
+226,42,3,Clothing,4
+227,18,1,Cell Phones and Accessories,3
+228,36,1,Home and Kitchen,3
+229,19,1,Kindle Store,1
+230,27,3,Health and Personal Care,2
+231,29,3,Health and Personal Care,2
+232,26,2,Sports and Outdoors,3
+233,30,5,Sports and Outdoors,4
+234,21,2,Clothing,3
+235,3,1,Home and Kitchen,1
+236,7,4,Shoes and Jewelry,1
+237,5,2,CDs,2
+238,44,4,Electronics,3
+239,20,4,Books,1
+240,47,1,Shoes and Jewelry,2
+241,26,3,Health and Personal Care,5
+242,18,4,Shoes and Jewelry,4
+243,38,5,Health and Personal Care,2
+244,49,1,Cell Phones and Accessories,3
+245,29,4,Health and Personal Care,5
+246,21,4,Sports and Outdoors,4
+247,7,5,Books,3
+248,44,4,Kindle Store,1
+249,6,2,Home and Kitchen,2
+250,45,4,Health and Personal Care,5
+251,31,2,Sports and Outdoors,1
+252,39,5,Movies,1
+253,35,2,CDs,1
+254,39,3,Movies,2
+255,40,4,Health and Personal Care,2
+256,49,2,Shoes and Jewelry,2
+257,36,1,Electronics,3
+258,28,2,Home and Kitchen,3
+259,17,2,Books,4
+260,7,1,Books,2
+261,41,4,Electronics,3
+262,25,2,Movies,3
+263,21,2,Shoes and Jewelry,5
+264,4,5,Health and Personal Care,2
+265,4,5,Movies,1
+266,30,1,Home and Kitchen,4
+267,1,4,Books,4
+268,29,1,Sports and Outdoors,4
+269,29,2,Books,5
+270,23,3,Health and Personal Care,1
+271,5,3,Cell Phones and Accessories,3
+272,45,4,Sports and Outdoors,2
+273,14,3,Clothing,4
+274,6,2,Cell Phones and Accessories,3
+275,32,4,Health and Personal Care,3
+276,34,3,Movies,2
+277,37,4,Books,3
+278,34,5,Kindle Store,1
+279,42,1,Cell Phones and Accessories,3
+280,46,3,Health and Personal Care,1
+281,5,4,Shoes and Jewelry,2
+282,32,2,Health and Personal Care,2
+283,34,1,Shoes and Jewelry,2
+284,2,4,Clothing,3
+285,17,1,Home and Kitchen,1
+286,31,2,Sports and Outdoors,5
+287,3,1,Kindle Store,5
+288,38,4,Sports and Outdoors,3
+289,24,1,Kindle Store,2
+290,46,4,Books,3
+291,48,4,Shoes and Jewelry,3
+292,39,1,Books,2
+293,42,1,Sports and Outdoors,1
+294,28,5,Electronics,1
+295,12,1,Kindle Store,5
+296,50,2,Movies,5
+297,39,2,Cell Phones and Accessories,3
+298,22,1,Books,4
+299,45,5,Books,3
+300,5,3,Shoes and Jewelry,5
+301,12,1,Shoes and Jewelry,1
+302,19,2,Sports and Outdoors,4
+303,11,5,Electronics,5
+304,47,4,Sports and Outdoors,4
+305,2,2,Cell Phones and Accessories,1
+306,24,5,Shoes and Jewelry,2
+307,2,2,Shoes and Jewelry,1
+308,31,2,Books,2
+309,8,4,Cell Phones and Accessories,3
+310,24,1,CDs,3
+311,35,5,Books,2
+312,38,4,Kindle Store,2
+313,39,1,Shoes and Jewelry,2
+314,20,3,Clothing,1
+315,7,3,Movies,3
+316,2,1,CDs,1
+317,1,4,Sports and Outdoors,4
+318,6,4,Cell Phones and Accessories,2
+319,10,3,Clothing,2
+320,5,5,Movies,1
+321,31,2,Health and Personal Care,3
+322,43,4,Clothing,4
+323,11,2,Cell Phones and Accessories,4
+324,42,5,Books,2
+325,18,3,Cell Phones and Accessories,3
+326,22,3,Shoes and Jewelry,3
+327,2,5,Home and Kitchen,1
+328,1,1,Kindle Store,3
+329,38,3,Kindle Store,5
+330,40,3,Cell Phones and Accessories,5
+331,40,2,Health and Personal Care,5
+332,21,3,Cell Phones and Accessories,4
+333,34,5,Books,3
+334,11,2,Health and Personal Care,2
+335,47,1,Health and Personal Care,2
+336,2,4,Home and Kitchen,3
+337,22,3,Health and Personal Care,1
+338,7,3,Home and Kitchen,4
+339,34,4,Sports and Outdoors,1
+340,30,4,Shoes and Jewelry,4
+341,49,5,Books,4
+342,25,3,CDs,4
+343,30,5,Kindle Store,4
+344,48,3,Books,4
+345,32,5,Sports and Outdoors,3
+346,4,3,Sports and Outdoors,1
+347,8,2,Books,2
+348,4,2,CDs,5
+349,30,3,Sports and Outdoors,2
+350,36,3,Electronics,5
+351,23,1,Shoes and Jewelry,3
+352,21,3,Books,5
+353,27,2,Health and Personal Care,5
+354,1,3,Electronics,1
+355,18,4,Shoes and Jewelry,1
+356,4,5,Books,1
+357,33,2,Sports and Outdoors,4
+358,46,3,Sports and Outdoors,4
+359,40,2,Clothing,5
+360,17,3,Electronics,1
+361,38,2,Cell Phones and Accessories,3
+362,14,5,Clothing,5
+363,12,3,Shoes and Jewelry,3
+364,27,5,Movies,4
+365,8,1,Electronics,5
+366,8,2,Cell Phones and Accessories,5
+367,4,5,Electronics,1
+368,3,4,Sports and Outdoors,4
+369,25,1,Clothing,2
+370,46,5,Home and Kitchen,3
+371,21,5,CDs,2
+372,25,1,Electronics,5
+373,13,5,Books,1
+374,9,3,Kindle Store,4
+375,44,5,Kindle Store,3
+376,1,2,CDs,2
+377,5,5,Books,1
+378,20,4,Kindle Store,4
+379,11,1,Kindle Store,3
+380,45,2,Books,3
+381,18,1,Sports and Outdoors,5
+382,25,4,Home and Kitchen,1
+383,43,2,Shoes and Jewelry,4
+384,5,1,Books,5
+385,20,4,Books,3
+386,9,5,Shoes and Jewelry,1
+387,13,4,Health and Personal Care,2
+388,11,5,CDs,2
+389,10,3,Sports and Outdoors,5
+390,15,5,Books,3
+391,7,2,Sports and Outdoors,2
+392,33,4,Books,3
+393,45,4,CDs,4
+394,49,4,Books,2
+395,26,3,Sports and Outdoors,5
+396,11,2,Health and Personal Care,4
+397,35,5,Sports and Outdoors,5
+398,47,5,Kindle Store,4
+399,9,4,Kindle Store,4
+400,13,5,Clothing,4
+401,23,1,Cell Phones and Accessories,3
+402,29,5,Electronics,1
+403,10,2,Books,3
+404,50,4,Movies,2
+405,14,3,Clothing,2
+406,29,1,Electronics,4
+407,3,2,Kindle Store,3
+408,35,5,Books,4
+409,37,5,Kindle Store,2
+410,29,2,Sports and Outdoors,2
+411,19,1,Clothing,3
+412,26,2,Sports and Outdoors,3
+413,33,3,CDs,5
+414,23,4,Sports and Outdoors,2
+415,41,1,Kindle Store,1
+416,48,4,Clothing,1
+417,23,3,Books,4
+418,12,4,CDs,3
+419,22,2,Shoes and Jewelry,5
+420,38,3,Health and Personal Care,5
+421,34,4,Cell Phones and Accessories,4
+422,17,3,Health and Personal Care,3
+423,10,1,Health and Personal Care,2
+424,7,5,Books,3
+425,34,4,Electronics,3
+426,46,1,Movies,4
+427,36,3,Health and Personal Care,5
+428,29,1,Kindle Store,1
+429,25,1,CDs,3
+430,50,1,Electronics,1
+431,17,3,Sports and Outdoors,1
+432,33,5,Clothing,5
+433,8,5,Sports and Outdoors,1
+434,43,2,CDs,5
+435,47,2,Clothing,4
+436,28,2,Books,4
+437,7,4,Movies,1
+438,16,2,Books,3
+439,17,3,Books,4
+440,34,2,Movies,3
+441,24,1,Cell Phones and Accessories,4
+442,49,3,CDs,1
+443,36,2,Home and Kitchen,4
+444,28,2,Home and Kitchen,2
+445,38,5,Cell Phones and Accessories,2
+446,49,2,Clothing,5
+447,44,5,Movies,3
+448,42,1,Books,2
+449,32,1,Sports and Outdoors,3
+450,3,3,Books,2
+451,23,3,Shoes and Jewelry,1
+452,32,1,Books,2
+453,6,5,Home and Kitchen,5
+454,41,1,Books,4
+455,41,5,Clothing,3
+456,47,3,Shoes and Jewelry,3
+457,19,1,Electronics,3
+458,20,3,Books,1
+459,32,3,Shoes and Jewelry,2
+460,41,3,Electronics,2
+461,34,4,Books,2
+462,44,3,Sports and Outdoors,5
+463,17,4,Electronics,4
+464,33,1,CDs,4
+465,40,4,Movies,1
+466,19,4,CDs,2
+467,8,5,Sports and Outdoors,5
+468,9,4,Electronics,5
+469,12,5,CDs,2
+470,46,5,Cell Phones and Accessories,5
+471,49,2,Books,1
+472,40,4,CDs,5
+473,50,2,Health and Personal Care,5
+474,22,4,Sports and Outdoors,3
+475,47,1,Electronics,5
+476,40,2,Cell Phones and Accessories,4
+477,41,1,Cell Phones and Accessories,5
+478,41,2,Clothing,4
+479,35,3,CDs,2
+480,25,4,Books,4
+481,24,5,CDs,2
+482,10,5,Health and Personal Care,2
+483,28,1,Kindle Store,5
+484,25,4,Clothing,3
+485,49,2,Cell Phones and Accessories,3
+486,28,2,Movies,1
+487,13,4,Health and Personal Care,3
+488,50,5,Shoes and Jewelry,3
+489,32,1,Books,2
+490,42,5,Movies,1
+491,5,4,Books,1
+492,38,1,Movies,1
+493,22,4,Home and Kitchen,3
+494,3,4,Cell Phones and Accessories,4
+495,30,1,Electronics,4
+496,50,4,Health and Personal Care,4
+497,12,2,Electronics,5
+498,35,5,Cell Phones and Accessories,2
+499,15,5,Clothing,3

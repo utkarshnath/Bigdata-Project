@@ -1,0 +1,28 @@
+Topic is similar to table in database
+Each topic has some number of partitions, partitions have offsets
+Each parition of a topic is assigned to a broker, it tries not to have 2 partitions on the same broker
+No two replications on the same broker
+Only one broker is the leader for a single partition, all other are in sync replicas
+Producers write data to topics
+Consumers read data from topic
+consumer groups(grp of consumer to read)
+
+# Creating a topic
+kafka-topics.sh --zookeeper 127.0.0.1:2181 --topic first_topic --create --partitions 3 --replication-factor 1
+
+# see list of topics
+kafka-topics.sh --zookeeper 127.0.0.1:2181 --list
+kafka-topics.sh --zookeeper 127.0.0.1:2181 --topic name --describe
+
+#producing data to topics
+kafka-console-producer.sh --broker-list 127.0.0.1:9092 --topic first_topic
+
+# consumer
+kafka-console-consumer.sh  --bootstrap-server 127.0.0.1:9092 --topic first_topic 
+kafka-console-consumer.sh  --bootstrap-server 127.0.0.1:9092 --topic first_topic --from-beginning
+
+
+# Starting
+bin/zookeeper-server-start.sh config/zookeeper.properties
+kafka-server-start.sh config/server.properties
+
